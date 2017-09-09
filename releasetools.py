@@ -43,10 +43,10 @@ image_partitions_common = {
    'xbl.elf'           : 'xbl',
    'adspso.bin'        : 'dsp'
    'mdtp.img'          : 'mdtp'
+   'lksecapp.mbn'      : 'lksecapp'
 }
 
 image_partitions_op3 = {
-   'lksecapp.mbn'      : 'lksecapp'
 }
 
 image_partitions_op3t = {
