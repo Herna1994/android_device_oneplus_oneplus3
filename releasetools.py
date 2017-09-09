@@ -42,6 +42,7 @@ image_partitions_common = {
    'keymaster.mbn'     : 'keymaster',
    'xbl.elf'           : 'xbl',
    'adspso.bin'        : 'dsp'
+   'mdtp.img'          : 'mdtp'
 }
 
 image_partitions_op3 = {
