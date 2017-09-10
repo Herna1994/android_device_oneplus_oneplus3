@@ -184,3 +184,8 @@ if [ -f /sys/devices/soc0/select_image ]; then
     echo $image_variant > /sys/devices/soc0/image_variant
     echo $oem_version > /sys/devices/soc0/image_crm_version
 fi
+
+# Parse misc partition path and set property
+misc_link=$(ls -l /dev/block/bootdevice/by-name/misc)
+real_path=${misc_link##*>}
+setprop persist.mmi.misc_dev_path $real_path
