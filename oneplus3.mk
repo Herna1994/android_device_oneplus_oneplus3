@@ -151,9 +151,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/msm_irqbalance.conf
 
 # RIL
-#PRODUCT_BOOT_JARS += \
-#    qcnvitems \
-#    qcrilhook
+PRODUCT_BOOT_JARS += \
+    qcnvitems \
+    qcrilhook
 
 # Thermal
 PRODUCT_PACKAGES += thermal.msm8996
@@ -209,7 +209,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/xtwifi.conf:system/etc/xtwifi.conf
 
 # Telephony
-#PRODUCT_BOOT_JARS += qti-telephony-common
+PRODUCT_BOOT_JARS += qti-telephony-common
 
 # Tools
 PRODUCT_PACKAGES += \
