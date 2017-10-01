@@ -38,8 +38,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 include $(TOPDIR)hardware/qcom/audio/configs/msm8996/msm8996.mk
 
-DEVICE_MANIFEST_FILE := device/qcom/msm8996/manifest.xml
-DEVICE_MATRIX_FILE   := device/qcom/common/compatibility_matrix.xm
+DEVICE_MANIFEST_FILE := device/oneplus/oneplus3/manifest.xml
+DEVICE_MATRIX_FILE   := device/oneplus/oneplus3/compatibility_matrix.xml
 
 #Android EGL implementation
 PRODUCT_PACKAGES += libGLES_android
@@ -258,6 +258,7 @@ PRODUCT_PACKAGES += android.hardware.gatekeeper@1.0-impl \
                     android.hardware.gatekeeper@1.0-service \
                     android.hardware.keymaster@3.0-impl \
                     android.hardware.keymaster@3.0-service
+endif
 
 PRODUCT_PROPERTY_OVERRIDES += rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so
 
