@@ -1,3 +1,1 @@
-#dashd
-allow init input_device:chr_file { getattr };
-domain_trans(init, rootfs, dashd)
+allow init proc_touchpanel:file rw_file_perms;
