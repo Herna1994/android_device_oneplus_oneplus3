@@ -25,6 +25,7 @@ allow dashd {
 allow dashd sysfs:file { open read write ioctl };
 allow dashd sysfs:chr_file { open read write ioctl };
 allow dashd rootfs:file { entrypoint read execute };
+allow dashd dash_device:chr_file { open read write };
 
 allow ueventd sysfs:chr_file {create setattr};
 allow sysfs tmpfs:filesystem associate;

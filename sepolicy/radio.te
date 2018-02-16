@@ -1,0 +1,1 @@
+allow radio opengles_prop:file { open read getattr };
