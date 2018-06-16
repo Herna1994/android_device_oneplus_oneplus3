@@ -29,16 +29,16 @@
             32 - Camera
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <!--<integer name="config_deviceHardwareKeys">19</integer>-->
+    <integer name="config_deviceHardwareKeys">19</integer>
 
-    <!-- Whether device has fysical tri state switch
-    <bool name="config_hasAlertSlider">true</bool> -->
+    <!-- Whether device has fysical tri state switch -->
+    <bool name="config_hasAlertSlider">true</bool>
 
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
 
-    <!-- sRGB sysfs path
-    <string name="config_srgb_path">/sys/class/graphics/fb0/SRGB</string> -->
+    <!-- sRGB sysfs path -->
+    <string name="config_srgb_path">/sys/class/graphics/fb0/SRGB</string>
 
     <!-- Internal default to navigation bar value -->
     <!--<bool name="config_defaultToNavigationBar">false</bool>-->
